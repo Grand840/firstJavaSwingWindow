@@ -49,9 +49,9 @@ public class MenuBarSample extends JFrame {
         mnuFile.add(mnuSaveFile);
 
         JMenuItem mnuSaveFileAs = new JMenuItem("Save File As ...");
-        mnuSaveFile.setIcon(new ImageIcon("icons/saveas.png"));
-        mnuSaveFile.setMnemonic('s');
-        mnuSaveFile.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S, KeyEvent.CTRL_DOWN_MASK));
+        mnuSaveFileAs.setIcon(new ImageIcon("icons/saveas.png"));
+        mnuSaveFileAs.setMnemonic('s');
+        mnuSaveFileAs.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_SHIFT, KeyEvent.CTRL_DOWN_MASK));
         mnuFile.add(mnuSaveFileAs);
 
 
