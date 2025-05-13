@@ -1,8 +1,9 @@
 package ihm;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
+//import javax.swing.*;
+//import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 
 public class PushMe implements ActionListener {
     static public void main(String argv[]){
@@ -11,6 +12,7 @@ public class PushMe implements ActionListener {
     public PushMe(){
         Frame f  = new Frame("Ma Fenêtre");
         Button b = new Button("Push Me");
+        
         b.addActionListener(this);
 
         f.add(b);
