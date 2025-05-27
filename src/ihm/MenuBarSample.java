@@ -79,15 +79,15 @@ public class MenuBarSample extends JFrame {
     }
 
     private void mnuOpenListener(ActionEvent event) {
-        JOptionPane.showMessageDialog(this, "Button Clicked !");
+        JOptionPane.showMessageDialog(this, "Open File Success !");
     }
 
     private void mnuSaveListener(ActionEvent event) {
-        JOptionPane.showMessageDialog(this, "Button Clicked !");
+        JOptionPane.showMessageDialog(this, "File Save Successful !");
     }
 
     private void mnuSaveAsListener(ActionEvent event) {
-        JOptionPane.showMessageDialog(this, "Button Clicked !");
+        JOptionPane.showMessageDialog(this, "Save File As ... !");
     }
 
     private void mnuExitListener(ActionEvent event) {
